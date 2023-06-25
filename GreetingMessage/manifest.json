@@ -1,5 +1,5 @@
 {
-    "manifest_version": 2,
+    "manifest_version": 3,
     "name": "Greeting Extension",
     "version": "1.0",
     "description": "Displays a greeting message when a new tab is opened.",
