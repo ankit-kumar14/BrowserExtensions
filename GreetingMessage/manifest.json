@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "Greeting Extension",
+    "version": "1.0",
+    "description": "Displays a greeting message when a new tab is opened.",
+    "permissions": ["tabs"],
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },
+    "chrome_url_overrides": {
+      "newtab": "newtab.html"
+    }
+  }
+  
