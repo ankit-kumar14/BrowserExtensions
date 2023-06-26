@@ -5,11 +5,11 @@
     "description": "Displays a greeting message when a new tab is opened.",
     "permissions": ["tabs"],
     "background": {
-      "scripts": ["background.js"],
-      "persistent": false
+      "service_worker": "background.js",
+      "type": "module"
     },
     "chrome_url_overrides": {
-      "newtab": "newtab.html"
+      "newtab": "newTab.html"
     }
   }
   
